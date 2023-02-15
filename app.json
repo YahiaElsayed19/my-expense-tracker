@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "my-expense-tracker",
+    "name": "My Expense Tracker",
     "slug": "my-expense-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yahiaelsayed19.myexpensetracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e878fde4-05f2-4e87-a19f-34048d9dfff3"
+      }
     }
   }
 }
