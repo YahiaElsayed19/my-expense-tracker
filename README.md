@@ -1,5 +1,6 @@
 # my-expense-tracker
-It's a complete Expense tracker application
+
+### It's a complete Expense tracker application
 
 ### build using:
 
